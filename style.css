@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f0e8;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.banner {
+    text-align: center;
+    padding: 1.5rem 2rem;
+}
+
+.banner-logo {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+}
+
+.header-info {
+    background-color: #3b5249;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+main {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #fffdf8;
+    border-radius: 8px;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    border: 2px solid #3b5249;
+    position: relative;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e35;
+}
+
+.card p {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.card p:last-child {
+    margin-bottom: 0;
+}
+
+.badge {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    background-color: #3b5249;
+    color: #fff;
+    margin-bottom: 0.75rem;
+}
+
+.badge.utbildning {
+    background-color: #5b7a6b;
+}
+
+.badge.info {
+    background-color: #7a6e52;
+}
+
+.badge.paminnelse {
+    background-color: #a07040;
+}
+
+footer {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+footer a {
+    color: #3b5249;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
